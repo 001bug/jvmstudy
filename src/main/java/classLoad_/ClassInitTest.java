@@ -1,3 +1,5 @@
+package classLoad_;
+
 public class ClassInitTest {
     private static int num = 1;//clint 0-->1-->2
 

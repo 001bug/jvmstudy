@@ -1,3 +1,5 @@
+package classLoad_;
+
 public class DeadThreadTest {
     public static void main(String args[]){
         Runnable r=()->{
