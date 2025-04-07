@@ -20,6 +20,7 @@ public class LocalVariablesTest {
         this.count=1;
     }
 
+    //关于slot的理解,通过jclasslib中的code/LocalVariableTable(局部变量表)验证this放在第一位.
     public void test1(){
         Date date = new Date();
         String name1 = "atguigu.com";
