@@ -79,16 +79,16 @@ Constant pool:
   public static void main(java.lang.String[]);
     descriptor: ([Ljava/lang/String;)V
     flags: ACC_PUBLIC, ACC_STATIC
-    Code:
+    Code:                                       //这是main方法
       stack=2, locals=5, args_size=1
-         0: bipush        10
-         2: istore_1
-         3: bipush        20
-         5: istore_2
-         6: iload_1
-         7: iload_2
-         8: iadd
-         9: istore_3
+         0: bipush        10                    //取到10
+         2: istore_1                            //然后保存
+         3: bipush        20                    //取到20(push)
+         5: istore_2                            //保存
+         6: iload_1                             //取出10(load)
+         7: iload_2                             //取出20
+         8: iadd                                //加和操作
+         9: istore_3                            //和的结果保存到istore_3
         10: ldc           #2                  // String abc
         12: astore        4
         14: getstatic     #3                  // Field java/lang/System.out:Ljava/io/PrintStream;
