@@ -1,4 +1,4 @@
-package RunTimeDataArea;
+package VirtualStack;
 
 public class OperationStack {
     public int getSum(){

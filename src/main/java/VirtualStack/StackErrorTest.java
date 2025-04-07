@@ -1,4 +1,4 @@
-package RunTimeDataArea;
+package VirtualStack;
 /*
 * 测试java虚拟机栈的大小,设置java虚拟机栈的大小
 * 结果count是11409
